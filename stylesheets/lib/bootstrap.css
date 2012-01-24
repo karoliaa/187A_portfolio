@@ -33,6 +33,16 @@ html, body {
  margin: 0 0 0 300px
 }
 
+.content2 {
+ float: left;
+
+ margin: 0 0 0 600px
+}
+.content3 {
+ float: left;
+
+ margin: 0 0 0 900px
+}
 #footer{
 }
 
