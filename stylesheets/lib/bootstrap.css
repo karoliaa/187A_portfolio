@@ -14,8 +14,8 @@
 html, body {
   margin: 0;
   padding: 0;
-}
 
+}
 .sidebar {
  position:absolute;
  top:30px;
@@ -44,6 +44,7 @@ html, body {
  margin: 0 0 0 900px
 }
 #footer{
+  font-size: 12px;
 }
 
 h1,
