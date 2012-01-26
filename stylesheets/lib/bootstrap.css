@@ -28,15 +28,16 @@ html, body {
 
 }
 .content {
- float: left;
-
- margin: 0 0 0 300px
+ margin-left: 300px;
+ top: 30px;
+ left: 60px;
+ margin: 0 0 0 30px
 }
 
 .content2 {
- float: left;
+ margin-left: 600px;
 
- margin: 0 0 0 600px
+ margin: 0 0 0 30px
 }
 .content3 {
  float: left;
@@ -271,7 +272,7 @@ body {
   width: 220px;
 }
 .container-fluid > .content {
-  margin-left: 240px;
+  margin-left: 40px;
 }
 a {
   color: #0069d6;
