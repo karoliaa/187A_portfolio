@@ -14,7 +14,18 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color:#00ff00;
+  
+}
+.mailto:aaland.karoline@gmail.com {
+ position:absolute;
+ top:30px;
+ left:30px;
+ float:left;
+ width: 300px;
+ margin: 0 200px 200px 0;
+ font-size: 20px;
+ color: #bfbfbf;
+
 }
 .sidebar {
  position:absolute;
@@ -28,7 +39,7 @@ html, body {
 
 }
 .content {
- margin-right: 3000px;
+ margin-right: 300px;
  top: 30px;
  left: 30px;
  margin: 0 0 0 20px
@@ -186,8 +197,8 @@ select,
 textarea {
   font-size: 100%;
   margin: 0;
-  vertical-align: baseline;
-  *vertical-align: middle;
+
+
 }
 button, input {
   line-height: normal;
@@ -333,6 +344,7 @@ a:hover {
 }
 .span5 {
   width: 280px;
+  margin-left:200px;
 }
 .span6 {
   width: 340px;
@@ -351,10 +363,12 @@ a:hover {
 .align-left { float:left; margin: 0 15px 15px 0; }
 
 .span10 {
-  width: 150px;
+  width: 250px;
 }
 .span11 {
-  width: 640px;
+  width: 250px;
+  font-size: 13px;
+  margin-bottom: 6px;
 }
 .span12 {
   width: 700px;
@@ -367,6 +381,7 @@ a:hover {
   width: 820px;
 }
 .span15 {
+  
   width: 880px;
 }
 .span16 {
@@ -451,10 +466,11 @@ p {
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
-  margin-bottom: 9px;
+  margin-bottom: 13px;
+  
 }
 p small {
-  font-size: 11px;
+  font-size: 10px;
   color: #bfbfbf;
 }
 h1,
@@ -662,7 +678,7 @@ input,
 select,
 textarea {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: normal;
   line-height: normal;
 }
@@ -933,8 +949,9 @@ input.span10, textarea.span10 {
 input.span11, textarea.span11 {
   display: inline-block;
   float: none;
-  width: 630px;
+  width: 250px;
   margin-left: 0;
+  font-size: 13px;
 }
 input.span12, textarea.span12 {
   display: inline-block;
@@ -1250,7 +1267,8 @@ table .span10 {
   width: 380px;
 }
 table .span11 {
-  width: 420px;
+  width: 250px;
+  font-size: 13px
 }
 table .span12 {
   width: 460px;
@@ -2358,7 +2376,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 .twipsy-inner {
   padding: 3px 8px;
   background-color: #000000;
-  color: white;
+  color: gray;
   text-align: center;
   max-width: 200px;
   text-decoration: none;
