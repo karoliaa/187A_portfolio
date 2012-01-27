@@ -14,8 +14,21 @@
 html, body {
   margin: 0;
   padding: 0;
-  
-}
+  }
+. dropshadow { 
+
+ -moz-box-shadow: 3px 3px 4px #999; /* Firefox */ 
+
+ -webkit-box-shadow: 3px 3px 4px #999; /* Safari/Chrome */ 
+
+ box-shadow: 3px 3px 4px #999; /* Opera and other CSS3 supporting browsers */ 
+
+ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";/* IE 8 */
+ 
+ : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */ 
+ 
+} 
+
 .mailto:aaland.karoline@gmail.com {
  position:absolute;
  top:30px;
@@ -39,7 +52,7 @@ html, body {
 
 }
 .content {
- margin-right: 300px;
+ floar: left:
  top: 30px;
  left: 30px;
  margin: 0 0 0 20px
@@ -247,11 +260,18 @@ body {
   line-height: 18px;
   color: #404040;
 }
+.content2 {
+  margin-left: 140px;
+  min-width: 940px;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
 .container {
   width: 940px;
   margin-left: auto;
   margin-right: auto;
   zoom: 1;
+
 }
 .container:before, .container:after {
   display: table;
@@ -347,7 +367,8 @@ a:hover {
   margin-left:200px;
 }
 .span6 {
-  width: 340px;
+  width: 800px;
+  margin-left: 200px;
 }
 .span7 {
   width: 400px;
@@ -355,7 +376,9 @@ a:hover {
 .span8 {
   width: 460px;
 }
-.align-right { float:right; margin: 0 0 15px 15px; }
+.align-right { margin-left:200px; margin: 0 0 15px 15px;
+width: 700px;}
+
 .align-left { float:left; margin: 0 15px 15px 0; }
 .span9 {
   width: 520px;
@@ -375,7 +398,8 @@ a:hover {
   img: {display:block ; margin:0 auto ;}
 }
 .span13 {
-  width: 760px;
+  width: 300px;
+  fon'
 }
 .span14 {
   width: 820px;
